@@ -1,0 +1,60 @@
+doctype html
+head  
+    style 
+        include ../static/style.css 
+body 
+    nav#navbar
+        ul 
+            div#logo
+                img(src="/static/i1.jpg")
+                |HDA
+            li #[a(href="/")  Home]
+            li #[a(href="/")  About]
+            li #[a(href="/")  Services]
+            li #[a(href="/")  Class Info]
+            li #[a(href="/")  Contact us]
+
+    section#introSection
+        div Welcome to Vinay's Dance Academy 
+        div.small Eat Sleep Dance Repeat
+
+    section#missionSection 
+        h2 Our  Mission 
+        h3.card
+            p Dance Perfaction
+            div.card-box
+                div.card-img   
+                    img(src="/static/i2.jpg")
+
+                div.card-content
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        h3.card
+            p Dance the way you like
+            div.card-box
+                div.card-img   
+                    img(src="/static/i3.jpg")
+
+                div.card-content
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        h3.card
+            p Expert Training
+            div.card-box
+                div.card-img   
+                    img(src="/static/i1.jpg")
+
+                div.card-content
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit.p
+
+    section#sponsorSection
+        h2 Our sponsor
+        div#sponsors
+            img(src="/static/apple.png", alt="Sponsor Image", class="sponsor")
+            img(src="/static/adidas.jpg", alt="Sponsor Image", class="sponsor")
+            img(src="/static/goolge.png", alt="Sponsor Image", class="sponsor")
+            img(src="/static/visa.png", alt="Sponsor Image", class="sponsor")
+
+    section#footerSection
+        | Copyright © Vinay's Dance Academy 
+    
+    script 
+        include ../static/index.js  
